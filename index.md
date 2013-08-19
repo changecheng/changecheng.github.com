@@ -7,6 +7,7 @@ tagline: 山雨欲来风满楼
 
 ##山雨欲来风满楼
 
-![image](/Users/ChangeCheng/changecheng.github.com/media/saber.jpg "Saber/Konada")
+![image](/media/saber.jpg "Saber/Konada")
+![image](http://imgsrc.baidu.com/forum/w%3D580/sign=a52df7a8d1c8a786be2a4a065708c9c7/69500155b319ebc4377721cb8226cffc1e171631.jpg)
 
  
