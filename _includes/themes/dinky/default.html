@@ -19,7 +19,8 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header"><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1>
+        <h1 class="header"><a href="https://changecheng.github.io/about.html">{{ site.title }}</a></h1> 
+		/* {{ HOME_PATH }} */
         <p class="header">{{ site.tagline }}</p>
         <ul>
           {% assign pages_list = site.pages %}
@@ -41,7 +42,7 @@
         {% if site.author %}
         <div class="misc vcard">
           <h4>about</h4>
-		  <p>Back to the origin.</p>
+		  <p><small>Back to the origin.</small></p>
           <ul>
             {% if site.author.email %}
             <li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
