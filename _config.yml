@@ -12,9 +12,9 @@ pygments: true
 title : Change Chengの物語
 tagline: Love is Smile Always
 author : 
-  name : change cheng
-  email : zeyucheng@gmail.com
-  weibo : changecheng
+  name : 
+  email : 
+  weibo : 
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -97,7 +97,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+    provider : false 
     google : 
         tracking_id : 'UA-123-12'
     getclicky :
