@@ -11,10 +11,10 @@ pygments: true
 #
 title : Change Chengの物語
 tagline: Love is Smile Always
-author :
-  name : 
-  email : 
-  weibo : 
+author : Change Cheng
+  name : changecheng
+  email : zeyucheng@gmail.com
+  weibo : changecheng
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
