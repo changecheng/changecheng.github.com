@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About"
+title: "About Me"
 description: "Personal Blog of Change Cheng"
 ---
 {% include JB/setup %}
