@@ -11,7 +11,7 @@ tags: [jekyll, blog, mac, centos]
 
   Since sometime ago, I was trying to find a free place for me to write down my own articles to express my emotion as well as something interesting. At that time, I used RenRen, Sina Weibo, QQ Zone as well as Baidu Hi. Sina Weibo is the first to be excluded because it is something alike Twitter. Unfortunately, although RenRen or QQ zone are proper platforms, there are too many familiar friends or families. As a result, I resorted to Baidu Hi, which meets my requirement for quite a long time: Private and Personal. But happy time did not last long, it changed to a new version, a disgusting version, so I had no way but to give it up.
 
-  After a long time of silence, my willing to write my own blog sparks. Then, my best friend [Ribornix](http://www.rebornix.com) recommended me to establish a blog using Jekyll and Github Pages. It sounds quite cool! For that I can possess a free and clean place for my own world. Then the long road began.
+  After a long time of silence, my willing to write my own blog sparks. Then, my best friend [Rebornix](http://www.rebornix.com) recommended me to establish a blog using Jekyll and Github Pages. It sounds quite cool! For that I can possess a free and clean place for my own world. Then the long road began.
   
 #First Try
 
