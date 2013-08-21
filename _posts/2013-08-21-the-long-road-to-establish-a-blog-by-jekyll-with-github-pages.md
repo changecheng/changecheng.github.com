@@ -31,7 +31,7 @@ This time, my platform has changed to Mac OS 10.9 DP5 with Xcode 4. I tried to i
 
 This time, I configured the gcc, and the os reminded me that c compiler was required and the downloading began. It made me happy. At last, this worked. 
 
-Every hope comes to the installation of jekyll! With great hope and anxiety of another failure, I typed in the terminal `gem install jekyll`, returned permission denied. F**k! Then carefully, I typed `sudo gem install jekyll`, and that's OK. But also, after a while, jekyll would not work. I typed `gem list`, and what was sad was that jekyll, as well as those gems installed with jekyll, did not appear in the list! Sadly, hopelessly and angrily, I reinstalled it again. After times of check, it worked without any problem, miraculously. And I found that I have to use `sudo jekyll serve` in order to begin the serve. But everything can be OK, so who cares?
+Every hope comes to the installation of jekyll! With great hope and anxiety of another failure, I typed in the terminal `gem install jekyll`, returned permission denied. F\*\*k! Then carefully, I typed `sudo gem install jekyll`, and that's OK. But also, after a while, jekyll would not work. I typed `gem list`, and what was sad was that jekyll, as well as those gems installed with jekyll, did not appear in the list! Sadly, hopelessly and angrily, I reinstalled it again. After times of check, it worked without any problem, miraculously. And I found that I have to use `sudo jekyll serve` in order to begin the serve. But everything can be OK, so who cares?
 
 #Jekyll Bootstrap
 
