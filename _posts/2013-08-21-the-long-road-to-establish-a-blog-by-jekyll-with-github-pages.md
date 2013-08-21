@@ -17,7 +17,7 @@ tags: [jekyll, blog, mac, centos]
 
 I was using Mac OS 10.8.4 with Xcode 4.2 at first. According to a very careful technological article [《搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门》](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html), I began my own trial. I have to say that I am an amateur in programming, and you can image the hard for me to handle so many problems by Google as well as Baidu. I installed Macports, gcc, rvm, ruby and maybe other libraries or supporting programs. There were always problems of libraries, and I had always to update my macports, to try another version of gcc, ruby gem or other problems drove me mad. 
 
-At last, what was the most disappointing was that jekyll would not be right there in my computer! Was it astonishing? I used {% highlight c %}`gem install jekyll`{% endhighlight %} to install jekyll, it would remind me lack of permission to write in. Then trying `sudo su`, `gem install jekyll`, and I could install jekyll successively. When I typed 'je' and pressed tab, jekyll command would appear, proving that jekyll was already in there. Dramatically, after a while, when I input `jekyll serve` or `sudo su`,`jekyll serve`, jekyll would not work, and could not find jekyll command. Trying lots of times, I gave it up with great anger!
+At last, what was the most disappointing was that jekyll would not be right there in my computer! Was it astonishing? I used *`gem install jekyll`* to install jekyll, it would remind me lack of permission to write in. Then trying *`sudo su`*, *`gem install jekyll`*, and I could install jekyll successively. When I typed 'je' and pressed tab, jekyll command would appear, proving that jekyll was already in there. Dramatically, after a while, when I input *`jekyll serve`* or *`sudo su`*, *`jekyll serve`*, jekyll would not work, and could not find jekyll command. Trying lots of times, I gave it up with great anger!
 
 #The Trial on CentOS
 
@@ -31,7 +31,7 @@ This time, my platform has changed to Mac OS 10.9 DP5 with Xcode 4. I tried to i
 
 This time, I configured the gcc, and the os reminded me that c compiler was required and the downloading began. It made me happy. At last, this worked. 
 
-Every hope comes to the installation of jekyll! With great hope and anxiety of another failure, I typed in the terminal `gem install jekyll`, returned permission denied. F\*\*k! Then carefully, I typed `sudo gem install jekyll`, and that's OK. But also, after a while, jekyll would not work. I typed `gem list`, and what was sad was that jekyll, as well as those gems installed with jekyll, did not appear in the list! Sadly, hopelessly and angrily, I reinstalled it again. After times of check, it worked without any problem, miraculously. And I found that I have to use `sudo jekyll serve` in order to begin the serve. But everything can be OK, so who cares?
+Every hope comes to the installation of jekyll! With great hope and anxiety of another failure, I typed in the terminal *`gem install jekyll`*, returned permission denied. F\*\*k! Then carefully, I typed *`sudo gem install jekyll`*, and that's OK. But also, after a while, jekyll would not work. I typed *`gem list`*, and what was sad was that jekyll, as well as those gems installed with jekyll, did not appear in the list! Sadly, hopelessly and angrily, I reinstalled it again. After times of check, it worked without any problem, miraculously. And I found that I have to use *`sudo jekyll serve`* in order to begin the serve. But everything can be OK, so who cares?
 
 #Jekyll Bootstrap
 
