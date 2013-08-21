@@ -7,7 +7,7 @@
     <title>{{ page.title }}</title>
 
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/styles.css">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/perldoc.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/friendly.css">
     <script src="{{ ASSET_PATH }}/js/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
@@ -19,7 +19,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header"><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1> /* {{ HOME_PATH }} */
+        <h1 class="header"><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1> 
         <p class="header">{{ site.tagline }}</p>
         <ul>
           {% assign pages_list = site.pages %}
