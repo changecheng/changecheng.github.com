@@ -21,8 +21,8 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 /* @end */
 
 body {
-	font-family: Palatino, georgia, "times new roman", serif;
-	background-color: whitesmoke;
+	font-family: Palatino, georgia, "Helvetica", serif;
+	background-color: #FFFFF4;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
 }
@@ -45,7 +45,7 @@ h1,h2,h3,h4 {
 	font-size:1.5em; 
 	font-weight: normal; 
 	clear: left; 	
-	font-family: 'lucida grande', sans-serif; 
+	font-family: 'lucida handwriting', sans-serif; 
 }
 h1 { margin-bottom: 1em; }
 h2 {
@@ -65,7 +65,7 @@ hr {
 sup { line-height: 1ex; }
 
 #site {
-	max-width: 46em;
+/*	max-width: 46em; */
 	margin: 1.5em auto 3em auto;
 	line-height:1.5em;
 }
@@ -207,7 +207,7 @@ ul.compact li a {
 	margin-bottom: 0;
 }
 #header h1 {
-	font-family: Palatino, georgia, "times new roman", serif;
+	font-family: Palatino, georgia, "Lucida Handwriting", serif;
 	margin-bottom: 0;
 	line-height: 0.9em;
 	display: block;
@@ -231,8 +231,8 @@ ul.compact li a {
 	display: inline;
 }
 #header ul li a:hover {
-	color: blue;
-	border-bottom: 2px solid blue;
+	color: #CAFFFF;
+	border-bottom: 2px solid #CAFFFF;
 }
 #header .byline {
 	color: silver;
@@ -240,7 +240,7 @@ ul.compact li a {
 	line-height: 75%
 }
 #header:hover .byline a { color: silver; text-shadow: none; }
-#header:hover .byline a:hover { color: black; text-shadow: #aaa 1px 1px 2px;}
+#header:hover .byline a:hover { color: #CAFFFF; text-shadow: #aaa 1px 1px 2px;}
 
 /* @group Twitter */
 #twitter_update_list { display: inline; margin: 0; }
