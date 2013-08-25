@@ -13,7 +13,7 @@ pygments: true
 title : Change Chengの物語
 tagline: Love is Smile Always
 author : 
-  name : 
+  name : changecheng
   email : 
   weibo : 
 
@@ -72,8 +72,8 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  #atom_path : /atom.xml
+  #rss_path : /rss.xml
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
@@ -97,8 +97,8 @@ JB :
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #        
-  analytics :
-    provider : false 
+  analytics : false
+    provider : 
     google : 
         tracking_id : 'UA-123-12'
     getclicky :
