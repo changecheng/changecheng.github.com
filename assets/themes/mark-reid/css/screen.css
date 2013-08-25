@@ -40,6 +40,10 @@ a.pdf:before {
 	margin-right: 1em;
 	content: url(/files/css/icon_pdf.gif); }
 
+img {
+	max-width: 60em;
+	}
+
 h1,h2,h3,h4 { 
 	line-height:1em; 
 	font-size:1.5em; 
