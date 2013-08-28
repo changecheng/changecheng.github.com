@@ -9,7 +9,7 @@ tags: [lacrimosa, kalafina, 梶浦由记, 黒执事]
 
 [*Lacrimosa*](/media/Lacrimosa.mp3) is one of my favorite song of animation. In fact, I watched that anime after hearing this song, which is performed by [Kalafina](http://en.wikipedia.org/wiki/Kalafina), an outstanding group lead by [梶浦由记](http://en.wikipedia.org/wiki/Yuki_Kajiura). So, I would like to share it with you, for that this song is quite proper when you need it.
 
-![image](/media/lacrimosa.jpg)
+[![image](/media/lacrimosa.jpg)](/media/Lacrimosa.mp3)
 
 ##Lacrimosa
 
