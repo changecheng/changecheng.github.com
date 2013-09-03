@@ -82,7 +82,7 @@ sup { line-height: 1ex; }
 	min-width: 30em;
 }
 #page {
-	min-height: 30em;
+	min-height: 64em;
 	}
 /* More experimental CSS3 features */
 #page, #disqus_thread {
