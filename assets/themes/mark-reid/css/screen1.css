@@ -86,9 +86,11 @@ sup { line-height: 1ex; }
 	min-height: 48em;
 	} 
 	
-#page img {
-align: center;
-}
+#countdown1 {
+	marign-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;}
 
 /* More experimental CSS3 features */
 #page, #disqus_thread {
