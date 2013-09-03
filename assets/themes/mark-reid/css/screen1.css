@@ -42,6 +42,7 @@ a.pdf:before {
 
 img {
 	max-width: 60em;
+	position:center;
 	}
 
 h1,h2,h3,h4 { 
@@ -74,17 +75,16 @@ sup { line-height: 1ex; }
 	line-height:1.5em;
 }
 
-/* #page, */ 
-#disqus_thread {
+#page, #disqus_thread {
 	background: white;
    /* background-image: url(grid.png); */ 
 	padding: 3em 3em 1.5em 3em;
 	border: 1px solid #ccc;
 	min-width: 30em;
 }
-/* #page {
-	min-height: 64em;
-	} */
+#page {
+	min-height: 48em;
+	} 
 /* More experimental CSS3 features */
 /* #page, #disqus_thread {
 	box-shadow: 2px 2px 8px #aaa;
@@ -170,7 +170,7 @@ caption {
 /* @end */
 
 /* @group Lists */
-ul {
+/* ul {
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 	line-height: 1.5em;
@@ -199,7 +199,7 @@ ul.compact li span.date {
 }
 ul.compact li a {
 	width: 70%;
-}
+} */
 /* @end */
 
 /* @group Header */
