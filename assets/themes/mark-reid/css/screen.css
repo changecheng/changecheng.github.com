@@ -70,7 +70,7 @@ sup { line-height: 1ex; }
 
 #site {
 	max-width: 64em; 
-	margin: 1.5em auto 3em auto;
+	margin: auto auto auto auto;
 	line-height:1.5em;
 }
 
