@@ -169,38 +169,7 @@ caption {
 
 /* @end */
 
-/* @group Lists */
-/* ul {
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
-	line-height: 1.5em;
-	padding-left: 1.5em;
-}
-ul li {
-	list-style-type: square;
-	list-style-position: outside;
-}
-ol li {
-	list-style-type: decimal;
-	list-style-position: inside;
-}
-dt { font-weight: bold;}
-dd { margin: 0 0 1.5em 0; text-align: justify; }
 
-ul.compact { margin: 0; padding: 0;}
-ul.compact li { list-style: ;
-	list-style-type: square;
-	list-style-position: inside;
-}
-ul.compact li span.date {	
-	display: none;
-	color: grey;
-	width: 20%;
-}
-ul.compact li a {
-	width: 70%;
-} */
-/* @end */
 
 /* @group Header */
 #header, #header a { color: silver; }
