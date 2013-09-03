@@ -85,17 +85,22 @@ sup { line-height: 1ex; }
 #page {
 	min-height: 48em;
 	} 
+	
+#page img {
+position: center;
+}
+
 /* More experimental CSS3 features */
-/* #page, #disqus_thread {
+#page, #disqus_thread {
 	box-shadow: 2px 2px 8px #aaa;
 	-webkit-box-shadow: 2px 2px 8px #aaa;
 	-moz-box-shadow: 2px 2px 8px #aaa;	
 } 
-*/
+
 
 #disqus_thread { padding-top: 0; }
 
-/* TODO
+/* TODO */
 #page { counter-reset: section; }
 #page h2:before {
 	margin-left: -3.5ex;
@@ -103,7 +108,7 @@ sup { line-height: 1ex; }
 	content: "§" counter(section) ". ";
 	counter-increment: section 2;
 }
-*/
+
 
 /* @group FancyFirst */
 .emphnext + p:first-letter, p.emphfirst:first-letter {
