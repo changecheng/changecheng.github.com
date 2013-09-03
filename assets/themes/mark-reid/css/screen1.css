@@ -87,7 +87,7 @@ sup { line-height: 1ex; }
 	} 
 	
 #page img {
-position: center;
+align: center;
 }
 
 /* More experimental CSS3 features */
@@ -97,7 +97,7 @@ position: center;
 	-moz-box-shadow: 2px 2px 8px #aaa;	
 } 
 #page #countdown{
-	position: center;
+	align: center;
 }
 
 #disqus_thread { padding-top: 0; }
