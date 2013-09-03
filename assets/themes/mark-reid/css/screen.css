@@ -76,9 +76,10 @@ sup { line-height: 1ex; }
 
 #page, #disqus_thread {
 	background: white;
-    background-image: url(grid.png); 
+   /* background-image: url(grid.png); */ 
 	padding: 3em 3em 1.5em 3em;
 	border: 1px solid #ccc;
+	min-width: 30em;
 }
 
 /* More experimental CSS3 features */
