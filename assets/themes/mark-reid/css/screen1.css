@@ -96,11 +96,13 @@ position: center;
 	-webkit-box-shadow: 2px 2px 8px #aaa;
 	-moz-box-shadow: 2px 2px 8px #aaa;	
 } 
-
+#page #countdown{
+	position: center;
+}
 
 #disqus_thread { padding-top: 0; }
 
-/* TODO */
+/* TODO 
 #page { counter-reset: section; }
 #page h2:before {
 	margin-left: -3.5ex;
@@ -108,7 +110,7 @@ position: center;
 	content: "§" counter(section) ". ";
 	counter-increment: section 2;
 }
-
+*/
 
 /* @group FancyFirst */
 .emphnext + p:first-letter, p.emphfirst:first-letter {
