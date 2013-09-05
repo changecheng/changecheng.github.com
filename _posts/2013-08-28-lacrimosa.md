@@ -18,7 +18,6 @@ tags: [lacrimosa, kalafina, 梶浦由记, 黒执事]
 [![image](/media/lacrimosa.jpg)](/media/Lacrimosa.mp3)
 
 
-<audio src="/media/Lacrimosa.mp3" controls="controls"></audio>
 
 <br />
 
