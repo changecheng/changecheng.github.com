@@ -69,7 +69,7 @@ hr {
 sup { line-height: 1ex; }
 
 #site {
-	max-width: 54em; 
+	max-width: 64em; 
 	margin: 2em auto 2em auto;
 	line-height:1.5em;
 }
@@ -81,6 +81,9 @@ sup { line-height: 1ex; }
 	border: 1px solid #ccc;
 	
 }
+
+#clock {
+	margin-left: 6em;}
 
 /* More experimental CSS3 features */
 #page, #disqus_thread {
