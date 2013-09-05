@@ -89,6 +89,4 @@ Lacrimosa(于泪流的往日中)
 
 Lacrimosa... (空余泪流...)
 
-<audio controls="controls">
-	<source src="/media/Lacrimosa.mp3" type="audio/mp3">
-</audio>
+<audio src="/media/Lacrimosa.mp3" controls="controls"></audio>
