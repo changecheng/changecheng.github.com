@@ -81,9 +81,7 @@ sup { line-height: 1ex; }
 	border: 1px solid #ccc;
 	min-width: 30em;
 }
-#page {
-	min-height: 48em;
-	}
+
 /* More experimental CSS3 features */
 #page, #disqus_thread {
 	box-shadow: 2px 2px 8px #aaa;
