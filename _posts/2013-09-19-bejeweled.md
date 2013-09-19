@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "bejeweled"
+title: "Bejeweled--My favorite game on iOS"
 description: ""
 category: game
 tags: [game,iOS,bejeweled,diamond mine]
