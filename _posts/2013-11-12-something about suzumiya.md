@@ -2,7 +2,7 @@
 layout: post
 title: "关于凉宫春日的回忆"
 description: ""
-category: 
+category: Thinking
 tags: [涼宮春日,平野綾]
 ---
 {% include JB/setup %}
@@ -19,4 +19,4 @@ tags: [涼宮春日,平野綾]
   
   God Bless..God Knows...
   
-  <audio src="http://pan.baidu.com/share/link?shareid=2306866177&uk=2301961491" controls="controls"></audio>
+  
