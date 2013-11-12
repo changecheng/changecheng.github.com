@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "关于凉宫春日的回忆"
+title: "Something about Suzumiya Haruhi and Hirano Aya"
 description: ""
 category: Thinking
-tags: [涼宮春日,平野綾]
+tags: [Suzumiya Haruhi,Hirano Aya]
 ---
 {% include JB/setup %}
 
