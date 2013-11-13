@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "sth about suzumiya"
+title: "Something about Suzumiya Haruhi"
 description: "Love Suzumiya Haruhi forever"
 category: Thinking
 tags: [Suzumiya Haruhi, Hirano Aya]
