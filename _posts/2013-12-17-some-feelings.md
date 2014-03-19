@@ -2,7 +2,7 @@
 layout: post
 title: "some feelings"
 description: ""
-category: thingking
+category: thinking
 tags: [Aya Hirano]
 ---
 {% include JB/setup %}
