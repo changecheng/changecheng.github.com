@@ -42,6 +42,8 @@ a.pdf:before {
 
 img {
 	max-width: 60em;
+	margin-left:1.5em;
+	margin-right:1.5em;
 	}
 
 h1,h2,h3,h4 { 
