@@ -7,15 +7,15 @@ description: "Personal Blog of Change Cheng"
 
 #Love is Smile Alway
 
-![img](./media/t_profile.jpg "tprofile") 
+![img](./media/pic/t_profile.jpg "tprofile") 
 
 ##Contact me
 
 Github: [changecheng](https://github.com/changecheng)
 
-Email: <zeyucheng@gmail.com>
+Email: <zeyucheng@icloud.com>
 
-Sina Weibo: [Change Cheng很严肃](http://weibo.com/changecheng "weibo")
+Sina Weibo: [Zen1s很严肃](http://weibo.com/changecheng "weibo")
 
 
 

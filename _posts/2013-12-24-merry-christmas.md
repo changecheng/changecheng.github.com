@@ -7,7 +7,7 @@ tags: [Christmas]
 ---
 {% include JB/setup %}
 
-![image](/media/shana.jpg)
+![image](/media/pic/shana.jpg)
 
 Merry Christmas Eve!
 Merry Christmas!

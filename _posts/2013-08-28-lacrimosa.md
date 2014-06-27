@@ -15,7 +15,7 @@ tags: [lacrimosa, kalafina, 梶浦由记, 黒执事]
 <br />
 
 
-[![image](/media/lacrimosa.jpg)](/media/Lacrimosa.mp3)
+[![image](/media/pic/lacrimosa.jpg)](/media/music/Lacrimosa.mp3)
 
 
 
@@ -89,4 +89,4 @@ Lacrimosa(于泪流的往日中)
 
 Lacrimosa... (空余泪流...)
 
-<audio src="/media/Lacrimosa.mp3" controls="controls"></audio>
+<audio src="/media/music/Lacrimosa.mp3" controls="controls"></audio>
