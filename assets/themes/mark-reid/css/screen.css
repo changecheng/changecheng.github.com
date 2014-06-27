@@ -42,7 +42,7 @@ a.pdf:before {
 
 img {
 	max-width: 56em;
-	align: center;
+	position: center;
 	}
 
 h1,h2,h3,h4 { 
