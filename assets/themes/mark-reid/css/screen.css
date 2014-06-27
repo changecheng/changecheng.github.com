@@ -41,8 +41,8 @@ a.pdf:before {
 	content: url(/files/css/icon_pdf.gif); }
 
 img {
-	max-width: 55em;
-	
+	max-width: 56em;
+	align: center;
 	}
 
 h1,h2,h3,h4 { 
