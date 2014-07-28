@@ -21,6 +21,8 @@ var mode= 1 ;    //0:coutDown  1:count
 
 window.onload = function(){
     WINDOW_WIDTH = document.body.clientWidth;
+    //WINDOW_WIDTH = 56em;
+   
     WINDOW_HEIGHT = document.body.clientHeight;
 
     Margin_Left = WINDOW_WIDTH / 10;
