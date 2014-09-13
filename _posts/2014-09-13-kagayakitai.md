@@ -8,8 +8,9 @@ tags: [輝き]
 {% include JB/setup %}
 
 
-<audio src="/media/music/夏の林檎.mp3" controls="controls" />
 
+<audio src="/media/music/夏の林檎.mp3" controls="controls" > 
+</audio>
 
 近日，阴雨绵绵。我的心情，也如同这天气般，总是阴阴沉沉，偶然地露出阳光。
 
