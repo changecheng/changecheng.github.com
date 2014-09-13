@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "輝きたい、やきたい"
+title: "輝きたい"
 description: "To be shining"
 category: thinking
 tags: [輝き]
