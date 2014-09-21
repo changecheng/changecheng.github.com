@@ -18,19 +18,19 @@ tags: [floating point, IEEE 754, Converter]
 0.0
 
 
-![image](/media/pic/fp/0.0.jpg)
+![image](/media/pic/fp/0.0.png)
 
 
 1.0
 
 
-![image](/media/pic/fp/1.0.jpg)
+![image](/media/pic/fp/1.0.png)
 
 
 infinity
 
 
-![image](/media/pic/fp/infinity.jpg)
+![image](/media/pic/fp/infinity.png)
 
 
 
