@@ -12,7 +12,7 @@ tags: [floating point, IEEE 754, Converter]
   最近，在学习CS61C时，讲到了浮点数。老师提到了0的IEEE 754表示方法，就是当指数部分和小数部分均为0的时候，默认为0。这下我可纠结了，那1.0呢，按道理不也是指数和小数均为0么。毕竟1.0 = (-1)^0 * (1+ 0.0) * 2^0。于是到处找原因，最终发现了一个神器。
 
 
-  [Harald Schmidt](http://http://www.h-schmidt.net)的[IEEE 754 Converter](http://http://www.h-schmidt.net/FloatConverter/IEEE754.html)简单直接地解决了所有问题。
+  [Harald Schmidt](http://www.h-schmidt.net)的[IEEE 754 Converter](http://www.h-schmidt.net/FloatConverter/IEEE754.html)简单直接地解决了所有问题。
   
   
 0.0
