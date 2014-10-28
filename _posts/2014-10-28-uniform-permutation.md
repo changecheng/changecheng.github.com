@@ -40,11 +40,21 @@ The right code can be located in Introduction to Algorithms from page.127. Here,
 ![image](http://img.blog.csdn.net/20131119165308718)
 if A is [1,2,3], then after 3 steps, the possible conditions are:
 [1, 2, 3]	4
+
 [1, 3, 2]	5
+
+
 [2, 1, 3]	5
+
+
 [2, 3, 1]	5
+
+
 [3, 1, 2]	4
+
+
 [3, 2, 1]	4
+
 
 
 and the frequency of each permutation is not the same.
