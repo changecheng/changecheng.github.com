@@ -8,8 +8,8 @@ tags: [ねえ, 藤田麻衣子, miss]
 {% include JB/setup %}
 
 
-<video preload="auto" controls >
-	<source src="http://www.yinyuetai.com/video/552918">
+<video width="450" height="250" preload="auto" controls="controls" >
+	<source src="http://115.231.144.54/8/e/b/d/r/ebdrioonvedqbgmjqiexnvzgdachdq/hc.yinyuetai.com/AC03013B36145E551723898782AC4FE1.flv">
 	Opps! Html5 Video is Required.
 </video>
 
