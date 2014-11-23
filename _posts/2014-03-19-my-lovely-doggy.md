@@ -10,7 +10,7 @@ tags: [doggy, wangwang]
 ![image](/media/pic/wangwang.jpg)
 
 
-<audio src="/media/music/kioku_no_umi.mp3" controls="controls"></audio>
+<audio src="http://md.songtaste.com/201411231803/98fcbd722b29ef8d20bede36c7984cca/d/db/db0c0506ce15b91cdc4026583299be3e.mp3" controls="controls"></audio>
 
 
 小狗旺旺就这样突然没了，我真不知道该怎么样，真的只剩下了微笑了。从出生到现在，她已经大概有6年了吧，早就已经成了家里的一分子。我们吃肉，她也吃肉；我吃曲奇，她也吃；我的零食有很多都是旺旺吃掉了。毫无疑问，大吃货啊，却挑剔得连红肠都不吃，却贪吃地连火腿肠的壳都不放过。吃成了奶牛一样，但是依然保持了家族一贯的美丽。

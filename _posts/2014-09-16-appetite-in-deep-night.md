@@ -9,7 +9,7 @@ tags: [Starbucks, Burger King]
 
 
 
-<audio src="/media/music/明日への扉.mp3" controls="controls" > 
+<audio src="http://m6.songtaste.com/201411231757/03d733ddd16e5ec4eda8360b055e8354/6/6c/6c68404bca5d096816d2086bac37610b.mp3" controls="controls" > 
 </audio>
 
 

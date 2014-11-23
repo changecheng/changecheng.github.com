@@ -9,7 +9,7 @@ tags: [輝き]
 
 
 
-<audio src="/media/music/夏の林檎.mp3" controls="controls" > 
+<audio src="http://md.songtaste.com/201411231753/0a4f25940e60eb5ebf4a3b4e1287f03f/d/dc/dcd489d4b23170c447c22173e20d0cef.mp3" controls="controls" > 
 </audio>
 
 近日，阴雨绵绵。我的心情，也如同这天气般，总是阴阴沉沉，偶然地露出阳光。
