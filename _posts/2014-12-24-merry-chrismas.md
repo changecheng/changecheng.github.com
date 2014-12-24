@@ -12,11 +12,11 @@ tags: [christmas]
 
 <img src="/media/pic/sora.jpg" /> 
 <br />
-<p>
-Merry Christmas!
+
+<h2>Merry Christmas!</h2>
 <br />
 
-Love is Smile Always~
+<h2>Love is Smile Always~</h2>
 <br />
-</p>
+
 </div>
