@@ -15,7 +15,6 @@ tags: [christmas]
 
 <h2>Merry Christmas!</h2>
 <br />
-
 <h2>Love is Smile Always~</h2>
 <br />
 
