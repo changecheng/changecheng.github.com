@@ -89,4 +89,3 @@ Lacrimosa(于泪流的往日中)
 
 Lacrimosa... (空余泪流...)
 
-<audio src="http://zhangmenshiting.baidu.com/data2/music/41389526/41389526.mp3?xcode=065f1055b9b5f311d112eff7ca1a922d0de7bd77fda6b5af&mid=0.41792735305590" controls="controls"></audio>

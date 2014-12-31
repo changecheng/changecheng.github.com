@@ -9,8 +9,6 @@ tags: [Starbucks, Burger King]
 
 
 
-<audio src="http://zhangmenshiting.baidu.com/data2/music/29784130/29784130.mp3?xcode=c7fe0b81b62e9eab829f21fb9b483390038d33c27e451efb&mid=0.79771124825415" controls="controls" >明日への扉 
-</audio>
 
 
 
