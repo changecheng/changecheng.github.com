@@ -9,7 +9,7 @@ tags: [时崎狂三]
 
 
 
-![image](http://f.hiphotos.baidu.com/zhidao/pic/item/35a85edf8db1cb1374456945df54564e92584bb3.jpg)
+![image](http://img4.duitang.com/uploads/item/201308/04/20130804134746_vWXMw.thumb.600_0.jpeg)
 
 
 只是有说不出的苦痛罢了，但终究没有放弃自己的原则。
