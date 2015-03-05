@@ -6,7 +6,10 @@ category: memory
 tags: []
 ---
 {% include JB/setup %}
-
+<div align="center">
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=28445546&auto=0&height=66"></iframe>
+</div>
+<br>
 明けましておめでとう！
 
 
@@ -22,6 +25,5 @@ Happy New Year!
 2015, fight to pray! 
 
 
-<audio src="http://hc.yinyuetai.com/uploads/videos/common/D46E0145411BEBD284398FE1D21E9C2A.flv?sc=a8c0101716631bfc&br=780" controls>BRYNHILDR IN THE DARKNESS</audio>
 
 

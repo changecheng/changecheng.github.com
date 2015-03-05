@@ -7,6 +7,8 @@ tags: [happy]
 ---
 {% include JB/setup %}
 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=22741425&auto=0&height=66"></iframe>
+<br>
 今天终于收到了科大软院的录取通知书，我的一段奋斗历程就此结束。
 
 
@@ -19,5 +21,3 @@ tags: [happy]
   頑張ってください！
   
   
-
- <audio src="http://zhangmenshiting.baidu.com/data2/music/30470750/30470750.mp3?xcode=aff073b227ed5f6981cdd16f4d8925f5d9653805d530da91&mid=0.36639068655716" controls="controls">super driver</audio>

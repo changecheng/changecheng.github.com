@@ -6,19 +6,15 @@ category: Music
 tags: [lacrimosa, kalafina, 梶浦由记, 黒执事]
 ---
 {% include JB/setup %}
-
+<br>
+<div align = "center">
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=25860152&auto=0&height=66"></iframe>
+</div>
 
 <br />
 
-[*Lacrimosa*](/media/Lacrimosa.mp3) is one of my favorite song of animation. In fact, I watched that anime after hearing this song, which is performed by [Kalafina](http://en.wikipedia.org/wiki/Kalafina), an outstanding group lead by [梶浦由记](http://en.wikipedia.org/wiki/Yuki_Kajiura). So, I would like to share it with you, for that this song is quite proper when you need it.
+*Lacrimosa* is one of my favorite song of animation. In fact, I watched that anime after hearing this song, which is performed by [Kalafina](http://en.wikipedia.org/wiki/Kalafina), an outstanding group lead by [梶浦由记](http://en.wikipedia.org/wiki/Yuki_Kajiura). So, I would like to share it with you, for that this song is quite proper when you need it.
   
-<br />
-
-
-[![image](/media/pic/lacrimosa.jpg)](/media/music/Lacrimosa.mp3)
-
-
-
 <br />
 
 ##Lacrimosa
