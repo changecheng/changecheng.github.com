@@ -46,4 +46,38 @@ tags: [autologin,python]
 
 
 
-接下来，就是写入crontab。在mac上`sudo controntab -e`，打开文件，写入`* */hours * * * file path`其中，hours是期望运行的时间间隔，以小时算，file path是m执行的Python脚本所在路径。具体使用参见[Mac os下定时启动一个脚本](http://blog.sina.com.cn/s/blog_60b45f2301011hqp.html)。
+接下来，就是写入crontab。在mac上`controntab -e`，打开文件，写入`* */hours * * * file path`其中，hours是期望运行的时间间隔，以小时算，file path是m执行的Python脚本所在路径。具体使用参见[Mac os下定时启动一个脚本](http://blog.sina.com.cn/s/blog_60b45f2301011hqp.html)。
+
+*Attention:*
+我用crontab遇到了一大堆问题，还没成功，最终放弃了。改用Mac下的launchctl。
+
+
+首先，在脚本文件首行加入`#! /usr/bin/python`，其次，更改权限`chmod 777 yourpython.py`，使其能够执行。在~/Library/LaunchAgents下，新建com.xxx.yyy.plist(xxx, yyy as you like)。填入：
+
+
+    <?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<plist version="1.0">
+	<dict>
+ 	<key>Label</key>
+ 	<string>名称，一般和文件名同</string>
+	<key>ProgramArguments</key>
+  	<array>
+    <string>你执行py的路径</string>
+  	</array>
+  	<key>StartInterval</key>
+  	<integer>14400</integer> ##每隔14400
+  	<key>StandardOutPath</key>
+	<string>输出路径</string>
+	<key>StandardErrorPath</key>
+	<string>错误消息路径</string>
+	</dict>
+	</plist>
+
+接着，进入~/Library/LaunchAgents，`launchctl load com.xxx.yyy.plist`就行了。如果更改了plist，用`launchctl unload com.xxx.yyy.plist`取消，在load。也可`launchctl start com.xxx.yyy.plist`立即执行，`launchctl stop com.xxx.yyy.plist`停止。
+
+
+具体的launchctl命令详见：[官方文档](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/launchd.plist.5.html)。两个参考例子：[Mac 使用 launchctl 定时运行程序](http://my.oschina.net/jackin/blog/263024)和[Schedule jobs using launchd](http://nathangrigg.net/2012/07/schedule-jobs-using-launchd/)
+
+
+*ps：*launchctl有一点胜过crontab，就是预定的任务如果执行时间电脑不工作，则一旦电脑工作立即执行。真是nice。
