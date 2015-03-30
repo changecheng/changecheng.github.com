@@ -59,15 +59,15 @@ tags: [autologin,python]
 	<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 	<plist version="1.0">
 	<dict>
- 	<key>Label</key>
- 	<string>名称，一般和文件名同</string>
+    <key>Label</key>
+    <string>名称，一般和文件名同</string>
 	<key>ProgramArguments</key>
-  	<array>
+    <array>
     <string>你执行py的路径</string>
-  	</array>
-  	<key>StartInterval</key>
-  	<integer>14400</integer> ##每隔14400
-  	<key>StandardOutPath</key>
+    </array>
+    <key>StartInterval</key>
+    <integer>14400</integer> ##每隔14400
+    <key>StandardOutPath</key>
 	<string>输出路径</string>
 	<key>StandardErrorPath</key>
 	<string>错误消息路径</string>
