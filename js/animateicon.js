@@ -55,10 +55,10 @@ var AnimateIcon = React.createClass({
 	render: function () {
 		return React.createElement(
 			'div',
-			{ onClick: this.handleClick, style: { text-align: 'center' } },
+			{ onClick: this.handleClick, style: { textalign: 'center' } },
 			React.createElement(
 				'canvas',
-				{ ref: 'canvas',style:{display:'inline-block'} },
+				{ ref: 'canvas', style: { display: inline - block } },
 				'canvas not supported'
 			)
 		);
