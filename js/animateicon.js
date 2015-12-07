@@ -1,6 +1,5 @@
 var exampleDiv = document.getElementById('example');
 var maxWidth = exampleDiv.offsetWidth;
-console.log(maxWidth);
 var AnimateIcon = React.createClass({
 	displayName: 'AnimateIcon',
 
@@ -50,7 +49,7 @@ var AnimateIcon = React.createClass({
 	handleClick: function (e) {
 		e.preventDefault();
 		this.rotateAnimate();
-		console.log(this.state.rotateA);
+		
 	},
 	render: function () {
 		return React.createElement(
