@@ -1,5 +1,6 @@
 var exampleDiv = document.getElementById('example');
 var maxWidth = exampleDiv.offsetWidth;
+console.log(maxWidth);
 var AnimateIcon = React.createClass({
 	displayName: 'AnimateIcon',
 
@@ -17,9 +18,21 @@ var AnimateIcon = React.createClass({
 			imgisload = true;
 			self.setState({ img: img, imgisload: imgisload });
 			ctx.clearRect(0, 0, canvas.width, canvas.height);
+			var radius = 0.25 * Math.min(canvas.width, canvas.height);
+			self.clipContext(radius, 10, 'white');
 			ctx.drawImage(img, 0.5 * (1 - self.state.imgSize.w) * canvas.width, 0.5 * (1 - self.state.imgSize.h) * canvas.height, self.state.imgSize.w * canvas.width, self.state.imgSize.w * canvas.height);
 			self.rotateAnimate();
 		};
+	},
+	clipContext: function (radius, lineWidth, color) {
+		var canvas = this.refs.canvas;
+		var ctx = canvas.getContext('2d');
+		ctx.lineWidth = lineWidth;
+		ctx.strokeStyle = color;
+		ctx.beginPath();
+		ctx.arc(0.5 * canvas.width, 0.5 * canvas.height, radius, 0, Math.PI * 2, false);
+		ctx.stroke();
+		ctx.clip();
 	},
 	rotateAnimate: function () {
 		clearInterval(this.state.rotateID);
@@ -37,6 +50,9 @@ var AnimateIcon = React.createClass({
 		canvas.height = 0.5 * maxWidth;
 		this.imgLoad(this.props.imgUrl);
 	},
+	componentWillUnmount: function () {
+		clearInterval(this.state.rotateID);
+	},
 	rotateImg: function (canvas, img, center, rad, width, height) {
 		var canvas = this.refs.canvas;
 		var ctx = canvas.getContext('2d');
@@ -49,12 +65,12 @@ var AnimateIcon = React.createClass({
 	handleClick: function (e) {
 		e.preventDefault();
 		this.rotateAnimate();
-		
+		console.log(this.state.rotateA);
 	},
 	render: function () {
 		return React.createElement(
 			'div',
-			{ onClick: this.handleClick },
+			{ onClick: this.handleClick, style: { align: 'center' } },
 			React.createElement(
 				'canvas',
 				{ ref: 'canvas' },
@@ -64,4 +80,4 @@ var AnimateIcon = React.createClass({
 	}
 
 });
-ReactDOM.render(React.createElement(AnimateIcon, { imgUrl: '/media/apple-touch-icon.png' }), exampleDiv);
+ReactDOM.render(React.createElement(AnimateIcon, { imgUrl: 'media/apple-touch-icon.png' }), exampleDiv);
