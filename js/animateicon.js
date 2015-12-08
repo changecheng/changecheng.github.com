@@ -80,4 +80,4 @@ var AnimateIcon = React.createClass({
 	}
 
 });
-ReactDOM.render(React.createElement(AnimateIcon, { imgUrl: 'media/apple-touch-icon.png' }), exampleDiv);
+ReactDOM.render(React.createElement(AnimateIcon, { imgUrl: '/media/apple-touch-icon.png' }), exampleDiv);
