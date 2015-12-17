@@ -127,7 +127,7 @@ sup { line-height: 1ex; }
 .right.inset { margin-right: 0 !important; }
 .left.inset { margin-left: 0 !important; }
 .quiet {
-	color: grey;
+	color: gray;
 	font-size: 0.875em;
 	line-height: 1.714em;
 }

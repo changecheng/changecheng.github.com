@@ -1,0 +1,25 @@
+body{
+		background-color: #FFFFF4;
+	}
+	h1,h2,h3,h4 {
+		font-family: lucida-handwriting,sans-serif;
+	}
+	#site{
+		width:100%;
+		margin: 0;
+		padding: 1em;
+		border:1px ;
+	}
+	img{
+		max-width: 100%
+	}
+	#footer .engine{
+		position: absolute;
+		display: inline-block;
+		right: 1em;
+	}
+	#footer .copyright{
+		position: absolute;
+		display: inline-block;
+		left: 1em;
+	}
