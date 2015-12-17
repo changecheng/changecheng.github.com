@@ -1,6 +1,6 @@
-body{
-		background-color: #FFFFF4;
-	}
+	body{
+			background-color: #FFFFF4;
+		}
 	h1,h2,h3,h4 {
 		font-family: lucida-handwriting,sans-serif;
 	}
@@ -9,6 +9,7 @@ body{
 		margin: 0;
 		padding: 1em;
 		border:1px ;
+		background-color: #FFFFF4;
 	}
 	img{
 		max-width: 100%
