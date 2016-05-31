@@ -8,4 +8,4 @@
 ##刹那の嵐 
 
 > Love is Smile Always
->
+>Sic Parvis Magna
