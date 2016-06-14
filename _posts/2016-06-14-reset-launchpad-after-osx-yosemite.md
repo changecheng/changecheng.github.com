@@ -12,4 +12,7 @@ tags: [launch,osx]
 Entering following command in your terminal:
 
 	defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
+	
+
+Then launch will be restored.
 
