@@ -8,5 +8,8 @@ tags: [launch,osx]
 {% include JB/setup %}
 
 
+
+Entering following command in your terminal:
+
 	defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
 
