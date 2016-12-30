@@ -1,0 +1,141 @@
+---
+layout: post
+title: "Draw perspective transform with 2d context"
+description: ""
+category: technology
+tags: [perspective,2d,canvas]
+---
+{% include JB/setup %}
+
+
+<canvas id="my-canvas"></canvas>
+<script type="text/javascript" src="{{ASSET_PATH}}/js/gl-matrix-min.js"></script>
+
+<script type="text/javascript">
+	var vertexList = [
+	vec3.fromValues(0,0,0),
+	vec3.fromValues(100,0,0),
+	vec3.fromValues(100,100,0),
+	vec3.fromValues(0,100,0)
+]
+
+var imgSrc = "/media/pic/saber.jpg"
+
+
+
+var canvas = document.getElementById('my-canvas')
+
+canvas.width = 800
+canvas.height = 800
+var ctx = canvas.getContext('2d')
+var camera = vec3.fromValues(400,400,1000)
+
+var offcanvas = document.createElement('canvas')
+offcanvas.width = canvas.width
+offcanvas.height = canvas.height
+
+var offctx = offcanvas.getContext('2d')
+
+
+function fillImageWithProjection(x,y,theta,camera,imgObj,ctx) {
+	var startTime = new Date()
+	var w = imgObj.width
+	var h = imgObj.height
+	var num = 100
+	var slice = w/num
+	theta = theta/180*Math.PI
+	// console.log(slice)
+	for (var i=0;i<num;i++){
+		var base = x
+		var sliceStart = i*slice-1
+		var sliceStop = (i+1)*slice + 1
+		var startX = x + sliceStart * Math.cos(theta)
+		var stopX = x + sliceStop * Math.cos(theta)
+		var start = x+i*slice
+		var stop = x+(i+1)*slice+1
+		var curZ = sliceStart*Math.sin(theta)
+		// console.log(curZ)
+	
+		var nextZ = sliceStop*Math.sin(theta)
+		var lt = vec3.fromValues(startX,y,curZ)
+		var rt = vec3.fromValues(stopX,y,nextZ)
+		var lb = vec3.fromValues(startX,y+h,curZ)
+		var rb = vec3.fromValues(stopX,y+h,nextZ)
+		var tlt = projec3DPointToXY(camera,lt)
+		var trt = projec3DPointToXY(camera,rt)
+		var tlb = projec3DPointToXY(camera,lb)
+		var trb = projec3DPointToXY(camera,rb)
+
+		draw3DImage(ctx,imgObj,sliceStart,0,stop-start,h,tlt[0],tlt[1],trt[0]-tlt[0],trb[1]-trt[1])
+
+	}
+	
+}
+
+function draw3DImage(ctx,img,sx,sy,sw,sh,dx,dy,dw,dh) {
+	// console.log(arguments)
+	ctx.save()
+	// ctx.translate(-dx,-dy)
+	if (dw<0) {
+		
+		ctx.scale(-1,1)
+		dx = -dx
+		dw = -dw
+		
+	}
+	if (dh<0) {
+		ctx.scale(1,-1)
+		dy = -dy
+		dh = -dh
+
+	}
+	ctx.drawImage(img,sx,sy,sw,sh,dx,dy,dw,dh)
+	ctx.restore()
+}
+function projec3DPointToXY(camera,point) {
+	var zRatio = (camera[2] - point[2])/camera[2]
+	var targetPoint = vec3.create()
+	targetPoint[2] = 0
+	targetPoint[0] = (point[0]-camera[0])/zRatio + camera[0]
+	targetPoint[1] = (point[1]-camera[1])/zRatio + camera[1]
+	return targetPoint
+}
+var angle = 0
+var fpsTitle = document.getElementById('fps')
+
+
+var lastCalledTime = 0
+var delta = 0
+function update() {
+	if (!lastCalledTime) {
+		lastCalledTime = Date.now()
+	}else{
+		var curTime = Date.now()
+		delta = curTime - lastCalledTime
+		lastCalledTime = curTime
+		fpsTitle.innerHTML = (1000/delta).toFixed(1)
+	}
+
+	ctx.clearRect(0,0,canvas.width,canvas.height)
+	fillImageWithProjection(canvas.width/2,100,angle,camera,imgObj,ctx)
+	
+	requestAnimationFrame(update)
+}
+var imgObj = new Image()
+imgObj.onload = function () {
+	
+
+	setInterval(function () {
+		angle = (angle + 5)%360
+	},1000/60)
+
+
+	update()
+	
+}.bind(this)
+
+imgObj.src = imgSrc
+
+
+
+</script>
